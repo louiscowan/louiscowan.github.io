@@ -59,3 +59,8 @@ h3 {
     width: 70%;
     margin: auto;
 }
+
+#mozilla-link {
+    color: rgb(227, 173, 56);
+    text-decoration: underline;
+}
