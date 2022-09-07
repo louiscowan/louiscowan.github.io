@@ -22,15 +22,16 @@ li {
     display: inline;
 }
 
-a {
+.nav-bar {
     color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
     font-family: 'Kanit', sans-serif;
+    width: 50%;
 }
 
-a:hover {
+.nav-bar:hover {
     background: rgb(239, 124, 46);
     transform: scale(1.2);
     box-shadow: 0 0 5px #146594;
@@ -75,9 +76,14 @@ footer {
     padding-top: 25px; 
     margin-top: 25px;
     bottom: 0px;    
+    width: 100%;
 }
 
 .footer-p {
     left: 15px;
     width: 100%;
+}
+
+.github-image {
+
 }
