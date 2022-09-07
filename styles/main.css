@@ -1,11 +1,12 @@
 body {
     background-color: #659dbd;
     color: #f4f4eb;
+    overflow-x: hidden;
 }
 
-h1 {
+.main {
     position: relative;
-    font-size: 4.5em;
+    font-size: 2em;
     text-align: center;
     top: 1.5em;
     margin: auto;
@@ -33,8 +34,7 @@ a:hover {
     background: rgb(239, 124, 46);
     transform: scale(1.2);
     box-shadow: 0 0 5px #146594;
-    border-radius: 5px;
-    font-size: 23px;
+    border-radius: 5px;    
 }
 
 img {
@@ -43,12 +43,41 @@ img {
     background-color: rgb(223, 162, 30);
     border-radius: 30%;
     position: absolute;
-    right: 3em;
-    top: 3em;
+    right: 2em;
+    top: 2em;
 }
 
 img:hover {
 transform: scale(1.2);
 box-shadow: 0 0 5px #146594;
 cursor: pointer;
+}
+
+hr {
+    position: relative;
+    width: 60%
+}
+
+h2 {
+    font-size: 35px;
+    color:rgb(223, 162, 30)
+}
+
+p {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+footer {
+    display: block;
+    background-color: rgb(190, 175, 155);
+    padding-top: 25px; 
+    margin-top: 25px;
+    bottom: 0px;    
+}
+
+.footer-p {
+    left: 15px;
+    width: 100%;
 }
