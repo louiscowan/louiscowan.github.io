@@ -97,3 +97,35 @@ footer {
         background-color: #091c26;
     }
 }
+
+.blog-section {
+    position: relative;
+    top: 3em;
+    justify-content: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+
+.blog-posts {
+    display: flex;
+     justify-content: center;
+    vertical-align: middle;
+    background-color: #1077b3;
+    margin: 20px; 
+    width: 15em;
+    height: auto;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(231, 215, 215);
+}
+
+.blog-posts:hover{
+    background-color: rgb(227, 173, 56);
+    color: black;
+}
+
+
+
