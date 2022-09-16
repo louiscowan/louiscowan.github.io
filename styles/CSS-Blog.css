@@ -67,6 +67,32 @@ h3 {
 }
 
 #dom-image {
-    width: 40em;
-    height: 20em;
+    width: rem;
+    height: 20rem;
+    margin: auto;
 }
+
+#object-picture {
+    width: rem;
+    height: 20rem;
+}
+
+@media only screen and (max-width: 600px) {
+   p {
+    font-size: 25px;
+   }
+
+   #dom-image {
+        position: relative;
+        margin: auto;
+        height: 10rem;
+        width: 100%;
+   }
+
+   #object-picture {
+    position: relative;
+    margin: auto;
+    height: 10rem;
+    width: 100%;
+   }
+  }
