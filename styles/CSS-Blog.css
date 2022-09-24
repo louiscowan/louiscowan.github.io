@@ -61,6 +61,12 @@ h3 {
     margin: auto;
 }
 
+ td, tr {
+    margin: 0;
+    border: 3px solid black;
+    padding: 10px;
+}
+
 #mozilla-link {
     color: rgb(227, 173, 56);
     text-decoration: underline;
