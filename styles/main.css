@@ -127,6 +127,7 @@ footer {
     color: black;
     box-shadow: 3px 6px 10px rgb(0, 0, 0);
     transition: 0.5s;
+    transform:translatey(-3px);
 }
 
 
